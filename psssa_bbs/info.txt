@@ -4,9 +4,6 @@ Python Software Society of South Africa
 General
 -------
 
-Registration Number:
-  2017 / 224875 / 08
-
 Enterprise Name:
   PYTHON SOFTWARE SOCIETY OF SOUTH AFRICA
 
@@ -18,16 +15,6 @@ Enterprise Type:
 
 Enterprise Status:
   In Business
-
-Financial Year End:
-  February
-
-Directors
----------
-
-* David Sharpe
-* Neil Muller
-* Simon Cross
 
 Structure
 ---------
@@ -42,6 +29,13 @@ to be appointed in the following manner:
 
   GENERAL DIRECTORS MEETING HELD OR ROUND ROBIN APPROVAL BY DIRECTORS,
   WITHIN 10 WORKING DAYS AFTER RESIGNATION OR DEATH OF ANY DIRECTOR
+
+Directors
+---------
+
+* David Sharpe
+* Neil Muller
+* Simon Cross
 
 Objectives
 ----------
