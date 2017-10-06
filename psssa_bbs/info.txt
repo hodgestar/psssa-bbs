@@ -46,7 +46,7 @@ Amongst our objectives are such diverse goals as:
 How can it help?
 ----------------
 
-* Are you organising something Python related in South
+* Are you organising something Python-related in South
   Africa?
 
 * It can receive and hold money for you.
@@ -70,7 +70,7 @@ objective:
 The Company has 3 directors(s), 3 incorporator(s) and 0 alternate director(s),
 to be appointed in the following manner:
 
-  GENERAL DIRECTORS MEETING HELD OR ROUND ROBIN APPROVAL BY DIRECTORS,
+  GENERAL DIRECTORS' MEETING HELD OR ROUND ROBIN APPROVAL BY DIRECTORS,
   WITHIN 10 WORKING DAYS AFTER RESIGNATION OR DEATH OF ANY DIRECTOR
 
 Directors
