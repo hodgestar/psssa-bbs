@@ -29,7 +29,9 @@ def format_banner(text):
     """ Return banner text. """
     banner_text = pyfiglet.figlet_format(text, font="standard")
     banner_colour = termcolor.colored(banner_text, 'blue')
-    return banner_colour.splitlines()
+    lines = banner_colour.splitlines()
+    lines = lines[:-2] + [lines[-1]]  # remove blank lines
+    return lines
 
 
 def format_main(menu):
@@ -45,8 +47,9 @@ def format_main(menu):
 
 def format_section(section, start, lines_to_show):
     """ Return lines for the given subsection. """
+    title_banner = format_banner(section.title)
     return list(itertools.chain(
-        [title_style(section.title)],
+        title_banner,
         section.lines[start:start + lines_to_show],
         ["", prompt_style("Press any key ..."), ""],
     ))

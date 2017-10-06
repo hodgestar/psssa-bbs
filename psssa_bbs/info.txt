@@ -16,27 +16,6 @@ Enterprise Type:
 Enterprise Status:
   In Business
 
-Structure
----------
-
-The Company is a Non Profit company without members, with the following
-objective:
-
-  COMMUNITY TRAINING AND EDUCATIONAL DEVELOPMENT
-
-The Company has 3 directors(s), 3 incorporator(s) and 0 alternate director(s),
-to be appointed in the following manner:
-
-  GENERAL DIRECTORS MEETING HELD OR ROUND ROBIN APPROVAL BY DIRECTORS,
-  WITHIN 10 WORKING DAYS AFTER RESIGNATION OR DEATH OF ANY DIRECTOR
-
-Directors
----------
-
-* David Sharpe
-* Neil Muller
-* Simon Cross
-
 Objectives
 ----------
 
@@ -63,3 +42,40 @@ Amongst our objectives are such diverse goals as:
 * Supporting the activities of individuals or groups which
   grow the community of South African Python software
   developers.
+
+How can it help?
+----------------
+
+* Are you organising something Python related in South
+  Africa?
+
+* It can receive and hold money for you.
+
+* It can pay suppliers for you.
+
+* It can help with governance.
+
+* It CAN'T give you money (yet?).
+
+* It could form working groups.
+
+Structure
+---------
+
+The Company is a Non Profit company without members, with the following
+objective:
+
+  COMMUNITY TRAINING AND EDUCATIONAL DEVELOPMENT
+
+The Company has 3 directors(s), 3 incorporator(s) and 0 alternate director(s),
+to be appointed in the following manner:
+
+  GENERAL DIRECTORS MEETING HELD OR ROUND ROBIN APPROVAL BY DIRECTORS,
+  WITHIN 10 WORKING DAYS AFTER RESIGNATION OR DEATH OF ANY DIRECTOR
+
+Directors
+---------
+
+* David Sharpe
+* Neil Muller
+* Simon Cross
