@@ -30,7 +30,8 @@ def format_banner(text):
     banner_text = pyfiglet.figlet_format(text, font="standard")
     banner_colour = termcolor.colored(banner_text, 'blue')
     lines = banner_colour.splitlines()
-    lines = lines[:-2] + [lines[-1]]  # remove blank lines
+    if not lines[-2].strip():
+        lines = lines[:-2] + [lines[-1]]  # remove blank line
     return lines
 
 
