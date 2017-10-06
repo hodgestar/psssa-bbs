@@ -140,7 +140,11 @@ def shell(reader, writer):
             yield from interact_section(menu.sections[opt], reader, writer)
             opt = None
 
-    write_lines(writer, ["", prompt_style('Goodbye!')])
+    write_lines(writer, [
+        "",
+        prompt_style("https://github.com/hodgestar/psssa-bbs"),
+        prompt_style('Goodbye!'),
+    ])
     yield from writer.drain()
     writer.close()
 
