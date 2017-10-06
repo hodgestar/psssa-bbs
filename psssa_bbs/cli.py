@@ -43,13 +43,24 @@ def format_main(menu):
     ))
 
 
-def format_section(section):
+def format_section(section, start, lines_to_show):
     """ Return lines for the given subsection. """
     return list(itertools.chain(
         [title_style(section.title)],
-        section.lines,
+        section.lines[start:start + lines_to_show],
         ["", prompt_style("Press any key ..."), ""],
     ))
+
+
+def paragraph_break(lines, start, lines_per_screen):
+    """ Find the first paragraph break before the end of a screen. """
+    if len(lines) <= start + lines_per_screen:
+        return len(lines) - start
+    paragraph = lines[start: start + lines_per_screen]
+    for i in range(len(paragraph) - 1, -1, -1):
+        if not paragraph[i].strip():
+            return i
+    return len(lines) - start
 
 
 def write_lines(writer, lines):
@@ -90,9 +101,15 @@ def interact_wait_key(reader, writer):
 @asyncio.coroutine
 def interact_section(section, reader, writer):
     """ Interact with a section. """
-    writer.write(CLEAR_SCREEN)
-    write_lines(writer, format_section(section))
-    yield from interact_wait_key(reader, writer)
+    start = 0
+    lines_per_screen = 14
+    while start < len(section.lines):
+        writer.write(CLEAR_SCREEN)
+        num_lines = paragraph_break(
+            section.lines, start, lines_per_screen)
+        write_lines(writer, format_section(section, start, num_lines))
+        yield from interact_wait_key(reader, writer)
+        start += num_lines
 
 
 @asyncio.coroutine

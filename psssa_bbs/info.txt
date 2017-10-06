@@ -42,21 +42,24 @@ Objectives
 
 Amongst our objectives are such diverse goals as:
 
-Supporting and growing the community of Python software developers in South
-Africa.
+* Supporting and growing the community of Python
+  software developers in South Africa.
 
-Supporting and managing the running of PyCon South Africa.
+* Supporting and managing the running of PyCon South
+  Africa.
 
-Supporting and managing other Python software community events within South
-Africa.
+* Supporting and managing other Python software
+  community events within South Africa.
 
-Providing individuals who would not otherwise be able to attend Python software
-community events with financial or other assistance that would allow them to do
-so. These individuals might be South African or foreign.
+* Providing individuals who would not otherwise be able
+  to attend Python software community events with financial
+  or other assistance that would allow them to do
+  so. These individuals might be South African or foreign.
 
-Supporting activities of individuals or groups which enhance the visibility,
-health or public image of the community of South African Python software
-developers.
+* Supporting activities of individuals or groups which
+  enhance the visibility, health or public image of the
+  community of South African Python software developers.
 
-Supporting the activities of individuals or groups which grow the community of
-South African Python software developers.
+* Supporting the activities of individuals or groups which
+  grow the community of South African Python software
+  developers.
